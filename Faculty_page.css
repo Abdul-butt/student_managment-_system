@@ -1,0 +1,124 @@
+/* styles.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+    background-color: white;
+    margin: 2rem auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Instructor profile styles */
+#instructor-info {
+    margin-top: 2rem;
+}
+
+#instructor-info h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.image-frame {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #4CAF50;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 1rem;
+    background-color: #ccc; /* Added background color */
+    background-image: url('default-pic.jpg'); /* Default image */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.image-frame::before {
+    content: '';
+    display: block;
+    padding-top: 100%; /* Maintains aspect ratio */
+}
+
+#instructor-pic {
+    display: none;
+}
+
+#instructor-name {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+#pic-upload {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#pic-upload:hover {
+    background-color: #4CAF50;
+    color: white;
+}

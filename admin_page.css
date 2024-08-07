@@ -1,0 +1,109 @@
+.Mainpage{
+   
+    margin: auto;
+      border: 4px solid black;
+      background-color:#d0d7d39e;
+  width: 100%;
+  height:525px ;
+  }
+  .name
+  {text-align: center;
+     background-color: #0046806b;
+      width: 100%;
+      border-bottom: 4px solid black;
+      height: 60px;  
+      padding-top: 30px;
+      font-size: 30px;
+      font-weight: bolder;
+     font-family:'Times New Roman', Times, serif;
+  }
+  
+  .Mainbody a
+  {
+    text-decoration-line:none;
+    color: black;
+  }
+  
+  .Mainbody
+  {font-size: 20px;
+    position: relative;
+  }
+  
+  .s1_1_div
+  {
+    border :2px solid black;
+    width: 160px;
+    height: 30px;
+    position:absolute;
+    top:70px;
+    left: 81px;
+   
+    padding: 30px;
+    text-align: center;
+    background-color: #0046806b;
+  }
+  .s2_2_div
+  {
+    border :2px solid black;
+    width: 160px;
+    height: 30px;
+    position:absolute;
+    top: 70px;
+    left: 502px;
+   
+    padding: 30px;
+    text-align: center;
+    background-color: #0046806b;
+  }
+  .s3_3_div
+  {
+    border :2px solid black;
+    width: 160px;
+    height: 30px;
+    position:absolute;
+    top: 250px;
+    left: 81px;
+   
+    padding: 30px;
+    text-align: center;
+    background-color: #0046806b;
+  }
+  .s4_4_div
+  {
+    border :2px solid black;
+    width: 160px;
+    height: 30px;
+    position:absolute;
+    top: 70px;
+    left: 910px;
+   
+    padding: 30px;
+    text-align: center;
+    background-color: #0046806b;
+  }
+  .s5_5_div
+  {
+    border :2px solid black;
+    width: 160px;
+    height: 30px;
+    position:absolute;
+    top: 250px;
+    left: 502px;
+   
+    padding: 30px;
+    text-align: center;
+    background-color: #0046806b;
+  }
+  .s6_6_div
+  {
+    border :2px solid black;
+    width: 164px;
+    height: 30px;
+    position:absolute;
+     top: 250px;
+    left: 910px;
+   
+    padding:30px;
+    text-align: center;
+    background-color: #0046806b;
+  }
